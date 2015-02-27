@@ -5,7 +5,7 @@ A Laravel 5 wrapper for [Moinax/TvDb](https://github.com/Moinax/TvDb). See his d
 Put this in your `composer.json`.
 ``` json
 "require": {
-    "bstien/laravel-tvdb": "dev-master"
+    "bstien/laravel-tvdb": "1.0.0"
 },
 "repositories": [
 		{
