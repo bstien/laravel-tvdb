@@ -1,7 +1,7 @@
 {
     "name": "bstien/laravel-tvdb",
     "require": {
-	"illuminate/support": "~5.0",
+	    "illuminate/support": "~5.0",
         "moinax/tvdb": "dev-master"
     },
     "authors": [
@@ -11,8 +11,8 @@
         }
     ],
     "autoload": {
-	"psr-4": {
-	    "Stien\\TvDb\\": "src"
-        }
+      "psr-4": {
+          "Stien\\TvDb\\": "src"
+      }
     }
 }
