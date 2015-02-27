@@ -8,8 +8,8 @@ return [
 	],
 
 	'cache' => [
-		# Where to store cache
-		'path' => \App::storagePath() . "/cache/tvdb/",
+		# Where to store cache. Relative from application root.
+		'path' => "/cache/tvdb/",
 		# How long TTL, in seconds
 		'ttl' => (86400 * 7),
 	],
