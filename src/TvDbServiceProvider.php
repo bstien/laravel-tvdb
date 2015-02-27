@@ -59,7 +59,7 @@ class TvDbServiceProvider extends ServiceProvider {
 			$cachePath = ! isset($app['config']['tvdb.cache.path']) ? \App::storagePath() . "/cache/tvdb/" : $app['config']['tvdb.cache.path'];
 
 			// Set cache-TTL.
-			$cacheTtl = ! isset($app['config']['tvdb.cache.ttl']) ? null : $this->config['tvdb.cache.ttl'];
+			$cacheTtl = ! isset($app['config']['tvdb.cache.ttl']) ? null : $app['config']['tvdb.cache.ttl'];
 
 			return new TvDbClient($baseUrl, $apiKey, $cachePath, $cacheTtl);
 		});
