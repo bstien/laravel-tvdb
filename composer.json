@@ -1,8 +1,11 @@
 {
     "name": "bstien/laravel-tvdb",
+    "description": "A Laravel wrapper for moinax/tvdb.",
     "require": {
-	    "illuminate/support": "~5.0",
         "moinax/tvdb": "dev-master"
+    },
+    "require-dev": {
+	"illuminate/support": "~5.0"
     },
     "authors": [
         {
