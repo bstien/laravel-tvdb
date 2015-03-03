@@ -1,6 +1,7 @@
 {
     "name": "bstien/laravel-tvdb",
     "description": "A Laravel wrapper for moinax/tvdb.",
+    "license": "MIT",
     "require": {
         "moinax/tvdb": "dev-master"
     },
