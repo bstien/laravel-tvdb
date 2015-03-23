@@ -50,10 +50,10 @@ class TvDbServiceProvider extends ServiceProvider {
 		$app->singleton('bstien.tvdb.client', function ($app)
 		{
 			// Set API-key
-			$apiKey = $app['config']['tvdb.apikey'];
+			$apiKey = $app['config']['tvdb.api.key'];
 
 			// Set base URL for TvDb-Client
-			$baseUrl = $app['config']['tvdb.base_url'];
+			$baseUrl = $app['config']['tvdb.api.url'];
 
 			// Set cache-path.
 			$cachePath = ! isset($app['config']['tvdb.cache.path']) ? "/cache/tvdb/" : $app['config']['tvdb.cache.path'];
